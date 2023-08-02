@@ -1,0 +1,7 @@
+task_module.settings:
+  path: '/task-four'
+  defaults:
+    _title: 'Settings'
+    _form: 'Drupal\task_module\Form\SettingsForm'
+  requirements:
+    _permission: 'access content'
